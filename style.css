@@ -15,7 +15,7 @@
         padding: 0;
         box-sizing: border-box;
         font-family: "Changa", sans-serif;
-       
+
     }
 
     body {
@@ -87,7 +87,7 @@
 
     /* Hero Section */
     .hero {
-        background: linear-gradient(rgb(26, 193, 63), rgb(7, 150, 28));
+        background: linear-gradient(rgb(3, 156, 36), rgb(9, 255, 46));
         background-size: cover;
         background-position: center;
         color: var(--white);
@@ -98,7 +98,7 @@
     .hero-content h1 {
         font-size: 2.5rem;
         margin-bottom: 20px;
-        
+
     }
 
     .hero-content p {
@@ -119,7 +119,7 @@
     }
 
     .btn-primary {
-        background-color: var(--primary-color);
+        background-color: rgb(0, 148, 0);
         color: var(--white);
     }
 
@@ -149,7 +149,7 @@
     .section-title {
         text-align: center;
         margin-bottom: 20px;
-        color: var(--primary-color);
+        color: rgb(0, 148, 0);
         font-size: 2rem;
     }
 
@@ -173,18 +173,19 @@
 
     .feature-icon {
         font-size: 50px;
-        color: var(--primary-color);
+        color: rgb(0, 148, 0);
         margin-bottom: 20px;
     }
 
     .feature-card h3 {
         margin-bottom: 15px;
-        color: var(--dark-color);
+        color: rgb(0, 148, 0);
+
     }
 
     /* Call to Action */
     .cta {
-        background-color: var(--primary-color);
+        background: linear-gradient(rgb(26, 193, 63), rgb(7, 150, 28));
         color: var(--white);
         text-align: center;
         padding: 80px 0;
@@ -216,7 +217,7 @@
     }
 
     .product-card {
-        
+
         border-radius: 10px;
         overflow: hidden;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
@@ -278,32 +279,29 @@
         margin-right: 10px;
     }
 
-    .product-price{
+    .product-price {
         display: flex;
         justify-content: space-between;
 
     }
 
-.as{
-    margin-right: 5px;
-}
+    .as {
+        margin-right: 8px;
+    }
 
-.add-to-cart i{
-    background-size: 90px;
-}
 
     .add-to-cart {
         display: block;
         width: 100px;
         padding: 10px;
-        background-color: rgb(0, 148, 0) ;
+        background-color: rgb(0, 148, 0);
         color: var(--white);
         border: none;
         border-radius: 5px;
         cursor: pointer;
         font-weight: bold;
         transition: background-color 0.3s;
-       
+
     }
 
     .add-to-cart:hover {
@@ -313,7 +311,14 @@
     /* About Us */
     .about {
         padding: 80px 0;
-        background-color: var(--light-color);
+        background-color: ;
+    }
+
+    .w {
+        margin-right: 130px;
+        margin-bottom: 20px;
+
+
     }
 
     .about-content {
@@ -342,17 +347,32 @@
         background-color: var(--light-color);
         padding: 30px;
         border-radius: 10px;
+
     }
+
+    #h {
+        border-color: #00a73d;
+        color: #00a73d;
+    }
+
+    #h:hover {
+        background-color: rgb(0, 148, 0);
+        color: #fff;
+        border-color: rgb(0, 148, 0);
+    }
+
 
     .contact-card h3 {
         margin-bottom: 20px;
         color: var(--primary-color);
+        font-size: 20px;
     }
 
     .contact-buttons {
         display: flex;
         flex-direction: column;
         gap: 15px;
+        margin-top: 20px;
     }
 
     .contact-info {
